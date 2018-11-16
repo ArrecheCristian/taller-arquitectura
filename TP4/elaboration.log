@@ -1,0 +1,38 @@
+Active-HDL 10.5.217.6767 2018-11-16 19:07:20
+
+Elaboration top modules:
+Architecture                  testbench(testproc)
+
+
+---------------------------------------------------------------------------------------------
+Entity       | Architecture | Library | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------
+testproc     | testbench    | tp4     |      | 10.5.217.6767 (Windows) | -O3
+microsencill | a            | tp4     |      | 10.5.217.6767 (Windows) | -O3
+bco_memoria  | principal    | tp4     |      | 10.5.217.6767 (Windows) | -O3
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package                | Library | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                    | std     |      |                         | <unavailable>
+TEXTIO                      | std     |      |                         | <unavailable>
+std_logic_1164              | ieee    |      |                         | <unavailable>
+std_logic_arith             | ieee    |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED          | ieee    |      |                         | <unavailable>
+Utils_STD_LOGIC             | tp4     |      |                         | <unavailable>
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                     | Comment
+---------------------------------------------------------------------------------------------
+ieee                        | Standard IEEE packages library
+std                         | Standard VHDL library
+tp4                         | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testproc testproc testbench
+
+
+The performance of simulation is reduced. Version Student Edition

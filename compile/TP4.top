@@ -1,0 +1,13 @@
+Test_Adder8 ENTITY
+Test_ShiftN ENTITY
+test_sumador ENTITY
+testproc ENTITY
+testduracionmax ENTITY
+testduracionmin ENTITY
+testbench ENTITY
+testbenchIO ENTITY
+Test_16 ENTITY
+test_driver_test ENTITY
+Test_Utils ENTITY
+Test_Controller ENTITY
+Probando_cosas ENTITY
