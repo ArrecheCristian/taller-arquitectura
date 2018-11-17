@@ -1,4 +1,4 @@
-Active-HDL 10.5.217.6767 2018-11-16 19:07:20
+Active-HDL 10.5.217.6767 2018-11-17 14:51:38
 
 Elaboration top modules:
 Architecture                  testbench(testproc)
@@ -30,9 +30,3 @@ ieee                        | Standard IEEE packages library
 std                         | Standard VHDL library
 tp4                         | None
 ---------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+testproc testproc testbench
-
-
-The performance of simulation is reduced. Version Student Edition

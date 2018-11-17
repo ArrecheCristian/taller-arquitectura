@@ -60,41 +60,9 @@ architecture testbench of testproc is
 		
 		pos := pos + 1;
 	end procedure;
-		
-		
 
-	procedure add(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a mandar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
 	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-		
-		variable aux : natural;
-	begin
-		instruccion(15 downto 8) := "00000011";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-		
-	end procedure;
-	
-	
-	
-	procedure store(
+	procedure guardar_dato(
 		-- Señal a donde hay que mandar la posicion a cargar
 		signal bus_pos: out natural;
 		
@@ -105,263 +73,19 @@ architecture testbench of testproc is
 		variable pos : inout natural;
 		
 		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000001";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;	 
-	
-	
-	
-	procedure load(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000010";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;	
-	
-	
-	
-	procedure jump(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000000";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;
-	
-	
-	procedure sub(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000110";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure; 
-	
-	
-	procedure op_and(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000100";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;
-	
-	
-	procedure op_or(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00001100";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;		
-	
-	
-	procedure op_not(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00001101";
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure; 	 
-	
-	
-	procedure op_jz(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000101";
-		instruccion(7 downto 0) := operando(7 downto 0);
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure; 	 
-	
-	
-	procedure op_nop(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0)
-	) is
-	
-		-- Variable de uso interno, representa la instruccion completa
-		variable instruccion : std_logic_vector(15 downto 0) := "0000000000000000";
-	begin
-		instruccion(15 downto 8) := "00000111";
-		
-		bus_pos <= pos;
-		bus_ins <= instruccion;
-		
-		pos := pos + 1;
-	end procedure;
-	
-	procedure cargar(
-		-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: out natural;
-		
-		-- Señal a donde se va a manar el dato
-		signal bus_ins: out std_logic_vector(15 downto 0);
-		
-		-- Posicion a donde escribir
-		variable pos : inout natural;
-		
-		-- Operando que forma parte de la instruccion
-		variable valor : std_logic_vector(15 downto 0)
+		variable dato : std_logic_vector(15 downto 0)
 	) is																	  
 	begin
 		
 		bus_pos <= pos;
-		bus_ins <= valor;
-		
-		pos := pos + 1;
+		bus_ins <= dato;
 	end procedure;
 
 --Señal que intercomunica el puerto de salida addres_in del micro con addres_out de la memoria.
 	signal addres :STD_LOGIC_VECTOR(7 DOWNTO 0);	
 -- Señales que intercomunica la testbench con la carga memoria 
 	signal asinc_bus_pos:  natural; 	   
-signal asinc_bus_ins: std_logic_vector(15 downto 0);
+	signal asinc_bus_ins: std_logic_vector(15 downto 0);
 
 -- Señal que conecta memory_data_out del micro con el memory_data_in de banco
 	signal memory_data_micro_mem: STD_LOGIC_VECTOR(15 DOWNTO 0);	
@@ -380,8 +104,8 @@ signal asinc_bus_ins: std_logic_vector(15 downto 0);
 	signal enable : std_logic := '0';   
 	signal clock_aux : std_logic := '0';   
 	
-	-- Señal a donde hay que mandar la posicion a cargar
-		signal bus_pos: natural;
+-- Señal a donde hay que mandar la posicion a cargar
+	signal bus_pos: natural;
 		
 	-- Señal a donde se va a manar el dato
 	signal bus_ins: std_logic_vector(15 downto 0);
@@ -404,25 +128,29 @@ begin
 	
 	variable op : std_logic_vector(7 downto 0) := "00001000";  
 	variable dato : std_logic_vector(15 downto 0) := "0000001100000010"; 
-	
+								   
 	
 	--Variables para la interfaz gráfica
 	variable linea : line;
-  		file entrada : text is in "STD_INPUT";
-		file salida : text is out "STD_OUTPUT";
-		variable Inst, parseOp: natural;
-		variable size: natural := 8;
-		variable aux : natural;
-		-- Posicion a donde escribir, inicializada en 0
-		variable pos : natural:=0;
+  	file entrada : text is in "STD_INPUT";
+	file salida : text is out "STD_OUTPUT";	 
+	variable  Inst, parseOp, parseOpExtra: natural; 
+	variable aux : natural;
+	
+	-- Variables usadas para cargar datos en memoria
+	variable gpos : natural;   
+	variable gdato : std_logic_vector(15 downto 0);
+	
+	-- Posicion a donde escribir, inicializada en 0
+	variable pos : natural:=0;
 		
-		-- Operando que forma parte de la instruccion
-		variable operando : std_logic_vector(7 downto 0);
+	-- Operando que forma parte de la instruccion
+	variable operando : std_logic_vector(7 downto 0);
 		
-		-- Codigo de operación a realizar
-		variable instr_input : std_logic_vector(15 downto 8); 
+	-- Codigo de operación a realizar
+	variable instr_input : std_logic_vector(15 downto 8); 
 		
-		variable salir : boolean := true;
+	variable salir : boolean := true;
 	
 	begin	
 		
@@ -456,8 +184,10 @@ begin
 				write(linea, string'("9) JZ"));
 				writeline(salida, linea);
 				write(linea, string'("10) NOP"));
+				writeline(salida, linea);
+				write(linea, string'("11) CARGAR DATO"));
 				writeline(salida, linea);	
-				write(linea, string'("11) EJECUTAR EL PROCESADOR"));
+				write(linea, string'("0) EJECUTAR EL PROCESADOR"));
 				writeline(salida, linea);
 				
 				--Se lee la instruccion a realizar
@@ -472,19 +202,30 @@ begin
 				writeline(salida, linea);  
 				
 				
-				if (Inst /= 11) then
-					write(linea, string'("Ingrese el operando a utilizar:"));
+				if (Inst /= 0) then
+					
+					if (Inst /= 11) then
+						write(linea, string'("Ingrese operando a utilizar:"));
+					else
+						write(linea, string'("Ingrese la direccion de memoria donde guardar"));
+					end	if;
+					
 					writeline(salida, linea);
+					
 					--Se lee la instruccion a realizar
 					readline(entrada, linea);
 					read(linea, parseOp);	
-				
-					-- Se limpia el buffer, no encontramos otra menera de hacerlo
-					write(linea, string'("FLUSH LINE"));
-	  				writeline(salida, linea);
+				   	
+					   
+					if (Inst = 11) then
+						-- Se limpia el buffer, no encontramos otra menera de hacerlo
+						write(linea, string'("Ingrese el dato a guardar"));	
+	  					writeline(salida, linea);							
+	  					writeline(salida, linea);
 					
-					--write(linea, parseOp);	 
-					--writeline(salida, linea); 
+						readline(entrada, linea);
+						read(linea, parseOpExtra);
+					end if;
 				end if;
 				
 	
@@ -492,61 +233,72 @@ begin
 				-- dependiendo del estado hacemos una u otra operación, reset_pc me pone los registros a 0
 					WHEN 1 =>
 						instr_input:="00000011";
-						operando := convert(parseOp,size);
+						operando := convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 2 =>	 
 						instr_input:="00000001";		
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 3 =>
 						instr_input:="00000010";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 4 =>
 						instr_input:="00000000";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 5 =>
 						instr_input:="00000110";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 6 =>
 						instr_input:="00000100";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 7 =>
 						instr_input:="00001100";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 8 => 
 						instr_input:="00001101";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 9 => 
 						instr_input:="00000101";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
+					
 					WHEN 10 => 
 						instr_input:="00000111";
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
-					WHEN 11=> 
+					
+					WHEN 11 =>
+						gpos := parseOp;		
+						gdato:=convert(parseOpExtra,16);
+						guardar_dato(asinc_bus_pos, asinc_bus_ins, gpos, gdato);
+					
+					WHEN 0 => 
 						instr_input:="10101010";
 						parseOp := 0;
 						operando:=convert(parseOp,8);
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
 						salir:=false;
+					
 					WHEN others=>   
+				
 				end CASE;
 				
 				wait for 1ns;
-			end LOOP;
-																				  
-		
-		cargar(asinc_bus_pos,
-		asinc_bus_ins,
-		convert(op),
-		dato);
+			end LOOP;							   
 		
 		wait for 1 ns;
 		

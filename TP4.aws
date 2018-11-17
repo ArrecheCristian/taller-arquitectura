@@ -1,0 +1,14 @@
+[Version]
+Version=10.5
+[Designs]
+TP4=TP4.adf
+[Settings]
+Active=TP4
+[Expand]
+tp4=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
