@@ -1,25 +1,2 @@
-"d:\tarq\TP4\src\Sumador.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\TestSumador.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Test16.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Adder8.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\TestAdder8.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\shiftN.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Teste_ShiftN.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\test_driver.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\test_driver_test.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Controller.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Test_Controller.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Utils.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Test_Utils.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\NOR8.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\testbench.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Simple_Multiplier.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\testduracionmin.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\testduracionmax.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\testbenchIO.vhd" VHDL TP4 1 0 0 -02
 "d:\tarq\TP4\src\testproc.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\bco_memoria.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\microsencill.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Utils_STD_LOGIC.vhd" VHDL TP4 1 0 0 -02
-"d:\tarq\TP4\src\Probando_cosas.vhd" VHDL TP4 1 0 0 -02
 . . 0 0 0

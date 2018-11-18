@@ -40,14 +40,14 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=testproc|testbench|0  
+HierarchyInformation=testproc|testbench|0
 ShowHide=ShowTopLevel
 Selected=
 
 [Groups]
 wave.asdbw=1
 wave.asdbw\current=1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid=1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid=1
 
 [Files]
 /Sumador.vhd=-1
@@ -91,21 +91,21 @@ wave.asdbw\current/sources=-1
 wave.asdbw\current/strings.index=-1
 wave.asdbw\current/treeinfo=-1
 wave.asdbw\current/typeinfo=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/channels.data=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/channels.index=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/current_time=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/global_info=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/names.data=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/names.index=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/pattern_lut=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/ref_counter=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/scratchpad.data=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/scratchpad.index=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/sources=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/status_ok=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/strings.index=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/treeinfo=-1
-wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/typeinfo=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/channels.data=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/channels.index=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/current_time=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/global_info=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/names.data=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/names.index=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/pattern_lut=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/ref_counter=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/scratchpad.data=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/scratchpad.index=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/sources=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/status_ok=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/strings.index=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/treeinfo=-1
+wave.asdbw\LOCAL___33abf05b5f2181002000.sid/typeinfo=-1
 
 [Files.Data]
 .\src\Sumador.vhd=VHDL Source Code
@@ -149,19 +149,19 @@ wave.asdbw\LOCAL___a617ef5b571f0401c200.sid/typeinfo=-1
 .\src\wave.asdbw\current\strings.index=External File
 .\src\wave.asdbw\current\treeinfo=External File
 .\src\wave.asdbw\current\typeinfo=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\channels.data=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\channels.index=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\current_time=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\global_info=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\names.data=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\names.index=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\pattern_lut=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\ref_counter=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\scratchpad.data=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\scratchpad.index=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\sources=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\status_ok=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\strings.index=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\treeinfo=External File
-.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\typeinfo=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\channels.data=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\channels.index=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\current_time=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\global_info=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\names.data=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\names.index=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\pattern_lut=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\ref_counter=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\scratchpad.data=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\scratchpad.index=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\sources=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\status_ok=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\strings.index=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\treeinfo=External File
+.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\typeinfo=External File
 

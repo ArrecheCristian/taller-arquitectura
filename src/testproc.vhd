@@ -132,7 +132,7 @@ begin
 	
 	--Variables para la interfaz gráfica
 	variable linea : line;
-  	file entrada : text is in "STD_INPUT";
+  	file entrada : text is in "assembler";
 	file salida : text is out "STD_OUTPUT";	 
 	variable  Inst, parseOp, parseOpExtra: natural; 
 	variable aux : natural;
@@ -152,8 +152,7 @@ begin
 		
 	variable salir : boolean := true;
 	
-	begin	
-		
+	begin	 
 		
 		resetMem <= '1';
 		enable <= '0';
