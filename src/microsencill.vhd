@@ -30,7 +30,7 @@ ARCHITECTURE a OF microsencill IS
 	-- puede estar el microprocesador
 	TYPE STATE_TYPE IS (reset_pc, fetch, decode, execute_add, execute_load, execute_store,
 		execute_store3, execute_store2, execute_jump, execute_sub,  execute_and, execute_or,
-		execute_not, execute_jzero, execute_nop, execute_halt);
+		execute_not, execute_jzero, execute_nop, execute_ldr, execute_halt);
 	
 --Definición de señales, la variable state me indica el estado del procesador
 SIGNAL state : STATE_TYPE;
@@ -100,8 +100,11 @@ BEGIN
 						state <= execute_jzero;
 					WHEN "00000111" =>				
 						state <= execute_nop;
+					WHEN "00001000" =>
+						state <= execute_ldr;
 					WHEN "10101010" =>
 						state <= execute_halt;
+						
 					WHEN OTHERS =>					
 						state <= fetch;
 					END CASE;
@@ -176,8 +179,13 @@ BEGIN
 				memory_address_register <= program_counter;
 			END IF;
 				state <= fetch;
-				
-		-- Ejecuta la función NOP
+		
+		-- Ejecuta la funcion LDR
+		WHEN execute_ldr =>
+			memory_address_register <= register_A(7 downto 0);
+			state <= execute_load;
+		
+		-- Ejecuta la función HALT
 		WHEN execute_halt =>			
 			state <= execute_halt;
 

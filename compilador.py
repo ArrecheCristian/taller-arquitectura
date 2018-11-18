@@ -6,6 +6,9 @@ def compilador(path):
 	file = open(path, "r", encoding="ascii")
 	salida = open("assembler", "w", encoding="ascii")
 
+	# Define las instrucciones que no tienen operando
+	solo_operando = {}
+
 	# Define el diccionario de etiquetas
 	etq = {}
 
@@ -21,8 +24,8 @@ def compilador(path):
 		# Imprime la linea para que quede mas linda
 		print(line, end="")
 
-		# Verifica que la linea no este vacia
-		if len(line) > 1:
+		# Verifica que la linea no este vacia y que no sea un comentario
+		if (len(line) > 1) & ~(line.startswith("//")):
 
 			# Separa la instruccion
 			p = line.split()
@@ -44,7 +47,7 @@ def compilador(path):
 					salto[p[2]] = len(ins)
 
 				# Para las instrucciones que no tienen operando
-				elif ( (p[0] == "NOP") | (p[0] == "HALT")) & (len(p) == 2):
+				elif ( (p[0] == "NOP") | (p[0] == "HALT") | (p[0] == "LDR")) & (len(p) == 2):
 					salto[p[1]] = len(ins)
 
 				# Guarda la instruccion en la lista de instrucciones
@@ -66,6 +69,9 @@ def compilador(path):
 
 	# Obtiene un array de claves para poder recorrer
 	claves = list(etq.keys())
+
+
+	# Carga de datos >>>>>>>>>>>>>>>>>>>>>>
 
 	# Si el tamaño del array de instrucciones es N, significa que hay N
 	# instrucciones, y se pueden agregar los datos al terminar las instrucciones
@@ -90,7 +96,10 @@ def compilador(path):
 		salida.write(etq[claves[i - len(ins)]] + "\n")
 
 
-	# Recorre las instruccioens para reeemplazar las etiquetas
+
+	# Carga de instrucciones >>>>>>>>>>>>>>
+
+	# Recorre las instruccioens y reeemplazar las etiquetas
 	for i in ins:
 
 		if i[0] == "ADD":
@@ -140,6 +149,10 @@ def compilador(path):
 		elif i[0] == "NOP":
 			print("No hace nada ", i[1], " (", salto[i[1]], ")")
 			salida.write(str(10) + "\n")
+
+		elif i[0] == "LDR":
+			print("Carga en el registro A, el contenido de la direccion de memoria definida en A ", i[1], " (", salto[i[1]], ")")
+			salida.write(str(12) + "\n")
 
 		elif i[0] == "HALT":
 			print("Termina la ejecucion ")

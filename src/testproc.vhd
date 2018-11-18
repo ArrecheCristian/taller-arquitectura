@@ -102,13 +102,7 @@ architecture testbench of testproc is
 
 -- Signal para habilitar e inhabilitar el clock   	
 	signal enable : std_logic := '0';   
-	signal clock_aux : std_logic := '0';   
-	
--- Señal a donde hay que mandar la posicion a cargar
-	signal bus_pos: natural;
-		
-	-- Señal a donde se va a manar el dato
-	signal bus_ins: std_logic_vector(15 downto 0);
+	signal clock_aux : std_logic := '0';   		   
 	
 	
 begin
@@ -185,6 +179,8 @@ begin
 				write(linea, string'("10) NOP"));
 				writeline(salida, linea);
 				write(linea, string'("11) CARGAR DATO"));
+				writeline(salida, linea);
+				write(linea, string'("12) LDR"));
 				writeline(salida, linea);	
 				write(linea, string'("0) EJECUTAR EL PROCESADOR"));
 				writeline(salida, linea);
@@ -200,8 +196,8 @@ begin
 				write(linea, Inst);	 
 				writeline(salida, linea);  
 				
-				
-				if (Inst /= 0) then
+				-- Se fija si la instruccion a cargar requiere parametro
+				if ((Inst /= 0) AND (Inst /= 10)) AND (Inst /= 12) then
 					
 					if (Inst /= 11) then
 						write(linea, string'("Ingrese operando a utilizar:"));
@@ -215,7 +211,7 @@ begin
 					readline(entrada, linea);
 					read(linea, parseOp);	
 				   	
-					   
+					-- Si la operacion es cargar dato, requiere dos parametros   
 					if (Inst = 11) then
 						-- Se limpia el buffer, no encontramos otra menera de hacerlo
 						write(linea, string'("Ingrese el dato a guardar"));	
@@ -277,13 +273,18 @@ begin
 					
 					WHEN 10 => 
 						instr_input:="00000111";
-						operando:=convert(parseOp,8);
+						operando:="00000000";
 						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
 					
 					WHEN 11 =>
 						gpos := parseOp;		
 						gdato:=convert(parseOpExtra,16);
 						guardar_dato(asinc_bus_pos, asinc_bus_ins, gpos, gdato);
+					
+					WHEN 12 => 
+						instr_input:="00001000";
+						operando:="00000000";
+						Guardar_instr(asinc_bus_pos, asinc_bus_ins, pos , operando, instr_input);
 					
 					WHEN 0 => 
 						instr_input:="10101010";
