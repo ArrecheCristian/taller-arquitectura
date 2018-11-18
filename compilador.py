@@ -70,6 +70,11 @@ def compilador(path):
 	# Si el tamaño del array de instrucciones es N, significa que hay N
 	# instrucciones, y se pueden agregar los datos al terminar las instrucciones
 	for i in range(len(ins), len(ins) + len(etq)):
+
+		# Se fija si el dato a cargar es una direccion de memoria
+		if etq[claves[i - len(ins)]].startswith("#"):
+			etq[claves[i - len(ins)]] = str(etq_dir[etq[claves[i - len(ins)]]])
+
 		print("En", i, "carga el dato ", etq[claves[i - len(ins)]] )
 
 		# Asocia la etiqueta con su direccion de memoria correspondiente
