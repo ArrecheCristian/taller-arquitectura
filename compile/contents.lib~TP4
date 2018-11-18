@@ -1,4 +1,4 @@
-401
+406
 ~E 1 "./../src/Adder8.vhd" 1 Adder8
 ~A 1 "./../src/Adder8.vhd" 5 Estructura
 ~E 1 "./../src/bco_memoria.vhd" 7 bco_memoria

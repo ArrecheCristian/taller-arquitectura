@@ -213,11 +213,6 @@ begin
 				   	
 					-- Si la operacion es cargar dato, requiere dos parametros   
 					if (Inst = 11) then
-						-- Se limpia el buffer, no encontramos otra menera de hacerlo
-						write(linea, string'("Ingrese el dato a guardar"));	
-	  					writeline(salida, linea);							
-	  					writeline(salida, linea);
-					
 						readline(entrada, linea);
 						read(linea, parseOpExtra);
 					end if;

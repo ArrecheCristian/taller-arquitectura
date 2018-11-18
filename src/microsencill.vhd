@@ -118,6 +118,7 @@ BEGIN
 		WHEN execute_store =>
 			-- write register_A to memory
 			memory_write <= '1';
+			memory_data_register_out <= register_a;
 			state <= execute_store2;
 		-- Este estado se asegura que la dirección de la memoria es válido hasta que acaba el ciclo
 		-- de escritura
