@@ -251,7 +251,7 @@ FileTimeLow=30699677
 Status=Compiled
 
 [COMPILESTATUS|.\src\wave.asdb]
-FileTimeLow=30703314
+FileTimeLow=30703511
 Status=Modified
 
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\TP4\src/testbench.vhd|]
@@ -551,7 +551,7 @@ Frame=0
 WindowWorkspaceInfo=LAAAAAAAAAABAAAA/////////////////////8sAAAB5AAAAkAYAABQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
 
 [COMPILESTATUS|.\src\testproc.vhd]
-FileTimeLow=30703311
+FileTimeLow=30703511
 Status=Compiled
 
 [COMPILESTATUS|.\src\ArchivosCompletos.zip]
@@ -567,7 +567,7 @@ FileTimeLow=30703247
 Status=Compiled
 
 [COMPILESTATUS|.\src\microsencill.vhd]
-FileTimeLow=30703247
+FileTimeLow=30703522
 Status=Compiled
 
 [COMPILESTATUS|.\src\P9 andando.zip]
@@ -649,47 +649,47 @@ WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////0QBAAB6AAAAgAcAAEoDAAAA
 Path=/testproc
 
 [COMPILESTATUS|.\src\wave.asdbw\strings.data]
-FileTimeLow=30703314
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\channels]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\global_info]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\names.data]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\names.index]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\pattern_lut]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\scratchpad]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\sources]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\strings.index]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\treeinfo]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\typeinfo]
-FileTimeLow=0
+FileTimeLow=30703511
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\channels.data]
@@ -753,13 +753,13 @@ FileTimeLow=0
 Status=Modified
 
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\testproc.vhd|]
-CurrentLine=125
-CurrentColumn=0
+CurrentLine=142
+CurrentColumn=27
 Bookmarks=-1
 BookmarksLength=3
 CurrentZoomFactor=1.000000
 Frame=0
-WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////0QBAAB6AAAAgAcAADUDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8QIAAB6AAAAAA8AADUDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
 
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\Utils_STD_LOGIC.vhd|]
 CurrentLine=27
@@ -777,50 +777,74 @@ Bookmarks=-1
 BookmarksLength=3
 CurrentZoomFactor=1.000000
 Frame=0
-WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////0QBAAB6AAAAgAcAADUDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////0QBAAB6AAAAgAcAADUDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\channels.data]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\channels.index]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\current_time]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\global_info]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\names.data]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\names.index]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\pattern_lut]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\ref_counter]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\scratchpad.data]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\scratchpad.index]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\sources]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\status_ok]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\strings.index]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\treeinfo]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___33abf05b5f2181002000.sid\typeinfo]
-FileTimeLow=30703313
+FileTimeLow=0
+Status=Modified
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\microsencill.vhd|]
+CurrentLine=21
+CurrentColumn=2
+Bookmarks=-1
+BookmarksLength=3
+CurrentZoomFactor=1.000000
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8QIAAB6AAAAAA8AADUDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
 

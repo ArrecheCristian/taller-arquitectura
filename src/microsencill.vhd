@@ -48,6 +48,7 @@ BEGIN
  address_out <= memory_address_register;
  program_counter_out <= program_counter;
  register_A_out <= register_A;
+ memory_data_register_out <= register_a;
  we <= memory_write;
 
 --A continuación detallo el comportamiento de la unidad de control
@@ -117,8 +118,7 @@ BEGIN
 		-- Ejecuta la función store (en tres ciclos para escribir en memória)
 		WHEN execute_store =>
 			-- write register_A to memory
-			memory_write <= '1';
-			memory_data_register_out <= register_a;
+			memory_write <= '1';				  
 			state <= execute_store2;
 		-- Este estado se asegura que la dirección de la memoria es válido hasta que acaba el ciclo
 		-- de escritura

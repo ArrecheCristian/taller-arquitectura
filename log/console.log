@@ -1,0 +1,4843 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/Sumador.vhd $dsn/src/TestSumador.vhd $dsn/src/Test16.vhd $dsn/src/Adder8.vhd $dsn/src/TestAdder8.vhd $dsn/src/shiftN.vhd $dsn/src/Teste_ShiftN.vhd $dsn/src/test_driver.vhd $dsn/src/test_driver_test.vhd $dsn/src/Controller.vhd $dsn/src/Test_Controller.vhd $dsn/src/Utils.vhd $dsn/src/Test_Utils.vhd $dsn/src/NOR8.vhd $dsn/src/testbench.vhd $dsn/src/Simple_Multiplier.vhd $dsn/src/testduracionmin.vhd $dsn/src/testduracionmax.vhd $dsn/src/testbenchIO.vhd $dsn/src/testproc.vhd $dsn/src/bco_memoria.vhd $dsn/src/microsencill.vhd $dsn/src/Utils_STD_LOGIC.vhd $dsn/src/Probando_cosas.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\Sumador.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# File: d:\tarq\TP4\src\TestSumador.vhd
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# File: d:\tarq\TP4\src\Test16.vhd
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# File: d:\tarq\TP4\src\Adder8.vhd
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# File: d:\tarq\TP4\src\TestAdder8.vhd
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# File: d:\tarq\TP4\src\shiftN.vhd
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# File: d:\tarq\TP4\src\Teste_ShiftN.vhd
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# File: d:\tarq\TP4\src\test_driver.vhd
+# Compile Entity "testeandoOo"
+# Compile Architecture "prueba" of Entity "testeandoOo"
+# File: d:\tarq\TP4\src\test_driver_test.vhd
+# Compile Entity "test_driver_test"
+# Compile Architecture "prueba" of Entity "test_driver_test"
+# File: d:\tarq\TP4\src\Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# File: d:\tarq\TP4\src\Test_Controller.vhd
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# File: d:\tarq\TP4\src\Utils.vhd
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# File: d:\tarq\TP4\src\Test_Utils.vhd
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# File: d:\tarq\TP4\src\NOR8.vhd
+# Compile Entity "NOR8"
+# Compile Architecture "proc" of Entity "NOR8"
+# File: d:\tarq\TP4\src\testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "Test" of Entity "testbench"
+# File: d:\tarq\TP4\src\Simple_Multiplier.vhd
+# Compile Entity "Simple_Multiplier"
+# Compile Architecture "Estructural" of Entity "Simple_Multiplier"
+# File: d:\tarq\TP4\src\testduracionmin.vhd
+# Compile Entity "testduracionmin"
+# Compile Architecture "Test" of Entity "testduracionmin"
+# File: d:\tarq\TP4\src\testduracionmax.vhd
+# Compile Entity "testduracionmax"
+# Compile Architecture "Test" of Entity "testduracionmax"
+# File: d:\tarq\TP4\src\testbenchIO.vhd
+# Compile Entity "testbenchIO"
+# Compile Architecture "Test" of Entity "testbenchIO"
+# File: d:\tarq\TP4\src\testproc.vhd
+# Compile Entity "testproc"
+# Compile Architecture "testbench" of Entity "testproc"
+# File: d:\tarq\TP4\src\bco_memoria.vhd
+# Compile Entity "bco_memoria"
+# Compile Architecture "principal" of Entity "bco_memoria"
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# File: d:\tarq\TP4\src\Utils_STD_LOGIC.vhd
+# Compile Package "Utils_STD_LOGIC"
+# Compile Package Body "Utils_STD_LOGIC"
+# File: d:\tarq\TP4\src\Probando_cosas.vhd
+# Compile Entity "Probando_cosas"
+# Compile Architecture "Test" of Entity "Probando_cosas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+asim -O5 +access +r +m+testproc testproc testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:38, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# add wave -noreg {/testproc/addres}
+# add wave -noreg {/testproc/asinc_bus_pos}
+# add wave -noreg {/testproc/asinc_bus_ins}
+# add wave -noreg {/testproc/memory_data_micro_mem}
+# add wave -noreg {/testproc/memory_data_mem_micro}
+# add wave -noreg {/testproc/CLK}
+# add wave -noreg {/testproc/We}
+# add wave -noreg {/testproc/resetMem}
+# add wave -noreg {/testproc/resetMicro}
+# add wave -noreg {/testproc/enable}
+# add wave -noreg {/testproc/clock_aux}
+# 11 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/Sumador.vhd $dsn/src/TestSumador.vhd $dsn/src/Test16.vhd $dsn/src/Adder8.vhd $dsn/src/TestAdder8.vhd $dsn/src/shiftN.vhd $dsn/src/Teste_ShiftN.vhd $dsn/src/test_driver.vhd $dsn/src/test_driver_test.vhd $dsn/src/Controller.vhd $dsn/src/Test_Controller.vhd $dsn/src/Utils.vhd $dsn/src/Test_Utils.vhd $dsn/src/NOR8.vhd $dsn/src/testbench.vhd $dsn/src/Simple_Multiplier.vhd $dsn/src/testduracionmin.vhd $dsn/src/testduracionmax.vhd $dsn/src/testbenchIO.vhd $dsn/src/testproc.vhd $dsn/src/bco_memoria.vhd $dsn/src/microsencill.vhd $dsn/src/Utils_STD_LOGIC.vhd $dsn/src/Probando_cosas.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\Sumador.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# File: d:\tarq\TP4\src\TestSumador.vhd
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# File: d:\tarq\TP4\src\Test16.vhd
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# File: d:\tarq\TP4\src\Adder8.vhd
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# File: d:\tarq\TP4\src\TestAdder8.vhd
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# File: d:\tarq\TP4\src\shiftN.vhd
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# File: d:\tarq\TP4\src\Teste_ShiftN.vhd
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# File: d:\tarq\TP4\src\test_driver.vhd
+# Compile Entity "testeandoOo"
+# Compile Architecture "prueba" of Entity "testeandoOo"
+# File: d:\tarq\TP4\src\test_driver_test.vhd
+# Compile Entity "test_driver_test"
+# Compile Architecture "prueba" of Entity "test_driver_test"
+# File: d:\tarq\TP4\src\Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# File: d:\tarq\TP4\src\Test_Controller.vhd
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# File: d:\tarq\TP4\src\Utils.vhd
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# File: d:\tarq\TP4\src\Test_Utils.vhd
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# File: d:\tarq\TP4\src\NOR8.vhd
+# Compile Entity "NOR8"
+# Compile Architecture "proc" of Entity "NOR8"
+# File: d:\tarq\TP4\src\testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "Test" of Entity "testbench"
+# File: d:\tarq\TP4\src\Simple_Multiplier.vhd
+# Compile Entity "Simple_Multiplier"
+# Compile Architecture "Estructural" of Entity "Simple_Multiplier"
+# File: d:\tarq\TP4\src\testduracionmin.vhd
+# Compile Entity "testduracionmin"
+# Compile Architecture "Test" of Entity "testduracionmin"
+# File: d:\tarq\TP4\src\testduracionmax.vhd
+# Compile Entity "testduracionmax"
+# Compile Architecture "Test" of Entity "testduracionmax"
+# File: d:\tarq\TP4\src\testbenchIO.vhd
+# Compile Entity "testbenchIO"
+# Compile Architecture "Test" of Entity "testbenchIO"
+# File: d:\tarq\TP4\src\testproc.vhd
+# Compile Entity "testproc"
+# Compile Architecture "testbench" of Entity "testproc"
+# File: d:\tarq\TP4\src\bco_memoria.vhd
+# Compile Entity "bco_memoria"
+# Compile Architecture "principal" of Entity "bco_memoria"
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# File: d:\tarq\TP4\src\Utils_STD_LOGIC.vhd
+# Compile Package "Utils_STD_LOGIC"
+# Compile Package Body "Utils_STD_LOGIC"
+# File: d:\tarq\TP4\src\Probando_cosas.vhd
+# Compile Entity "Probando_cosas"
+# Compile Architecture "Test" of Entity "Probando_cosas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:39, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 200 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 200 ns
+# 1 signal(s) traced.
+run 2000 ns
+# KERNEL: stopped at time: 2200 ns
+run 2000 ns
+# KERNEL: stopped at time: 4200 ns
+run 2000 ns
+# KERNEL: stopped at time: 6200 ns
+run 2000 ns
+# KERNEL: stopped at time: 8200 ns
+run 2000 ns
+# KERNEL: stopped at time: 10200 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:40, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: stopped at time: 12 us
+run 2000 ns
+# KERNEL: stopped at time: 14 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:40, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: stopped at time: 12 us
+run 2000 ns
+# KERNEL: stopped at time: 14 us
+run 2000 ns
+# KERNEL: stopped at time: 16 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:41, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  20:41, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: stopped at time: 12 us
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/microsencill.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:50, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 2580 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 3780 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 4980 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 6180 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 7380 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 8580 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 9780 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10980 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 12 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 12180 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 13380 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 14 us
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/microsencill.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:50, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 2580 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 3780 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 4 us
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/Sumador.vhd $dsn/src/TestSumador.vhd $dsn/src/Test16.vhd $dsn/src/Adder8.vhd $dsn/src/TestAdder8.vhd $dsn/src/shiftN.vhd $dsn/src/Teste_ShiftN.vhd $dsn/src/test_driver.vhd $dsn/src/test_driver_test.vhd $dsn/src/Controller.vhd $dsn/src/Test_Controller.vhd $dsn/src/Utils.vhd $dsn/src/Test_Utils.vhd $dsn/src/NOR8.vhd $dsn/src/testbench.vhd $dsn/src/Simple_Multiplier.vhd $dsn/src/testduracionmin.vhd $dsn/src/testduracionmax.vhd $dsn/src/testbenchIO.vhd $dsn/src/testproc.vhd $dsn/src/bco_memoria.vhd $dsn/src/microsencill.vhd $dsn/src/Utils_STD_LOGIC.vhd $dsn/src/Probando_cosas.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\Sumador.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# File: d:\tarq\TP4\src\TestSumador.vhd
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# File: d:\tarq\TP4\src\Test16.vhd
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# File: d:\tarq\TP4\src\Adder8.vhd
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# File: d:\tarq\TP4\src\TestAdder8.vhd
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# File: d:\tarq\TP4\src\shiftN.vhd
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# File: d:\tarq\TP4\src\Teste_ShiftN.vhd
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# File: d:\tarq\TP4\src\test_driver.vhd
+# Compile Entity "testeandoOo"
+# Compile Architecture "prueba" of Entity "testeandoOo"
+# File: d:\tarq\TP4\src\test_driver_test.vhd
+# Compile Entity "test_driver_test"
+# Compile Architecture "prueba" of Entity "test_driver_test"
+# File: d:\tarq\TP4\src\Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# File: d:\tarq\TP4\src\Test_Controller.vhd
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# File: d:\tarq\TP4\src\Utils.vhd
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# File: d:\tarq\TP4\src\Test_Utils.vhd
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# File: d:\tarq\TP4\src\NOR8.vhd
+# Compile Entity "NOR8"
+# Compile Architecture "proc" of Entity "NOR8"
+# File: d:\tarq\TP4\src\testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "Test" of Entity "testbench"
+# File: d:\tarq\TP4\src\Simple_Multiplier.vhd
+# Compile Entity "Simple_Multiplier"
+# Compile Architecture "Estructural" of Entity "Simple_Multiplier"
+# File: d:\tarq\TP4\src\testduracionmin.vhd
+# Compile Entity "testduracionmin"
+# Compile Architecture "Test" of Entity "testduracionmin"
+# File: d:\tarq\TP4\src\testduracionmax.vhd
+# Compile Entity "testduracionmax"
+# Compile Architecture "Test" of Entity "testduracionmax"
+# File: d:\tarq\TP4\src\testbenchIO.vhd
+# Compile Entity "testbenchIO"
+# Compile Architecture "Test" of Entity "testbenchIO"
+# File: d:\tarq\TP4\src\testproc.vhd
+# Compile Entity "testproc"
+# Compile Architecture "testbench" of Entity "testproc"
+# File: d:\tarq\TP4\src\bco_memoria.vhd
+# Compile Entity "bco_memoria"
+# Compile Architecture "principal" of Entity "bco_memoria"
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# File: d:\tarq\TP4\src\Utils_STD_LOGIC.vhd
+# Compile Package "Utils_STD_LOGIC"
+# Compile Package Body "Utils_STD_LOGIC"
+# File: d:\tarq\TP4\src\Probando_cosas.vhd
+# Compile Entity "Probando_cosas"
+# Compile Architecture "Test" of Entity "Probando_cosas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:51, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 2580 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 3780 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 4980 ns,  Iteration: 1,  Instance: /testproc/MIC,  Process: line__55.
+# KERNEL: stopped at time: 6 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:51, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/Sumador.vhd $dsn/src/TestSumador.vhd $dsn/src/Test16.vhd $dsn/src/Adder8.vhd $dsn/src/TestAdder8.vhd $dsn/src/shiftN.vhd $dsn/src/Teste_ShiftN.vhd $dsn/src/test_driver.vhd $dsn/src/test_driver_test.vhd $dsn/src/Controller.vhd $dsn/src/Test_Controller.vhd $dsn/src/Utils.vhd $dsn/src/Test_Utils.vhd $dsn/src/NOR8.vhd $dsn/src/testbench.vhd $dsn/src/Simple_Multiplier.vhd $dsn/src/testduracionmin.vhd $dsn/src/testduracionmax.vhd $dsn/src/testbenchIO.vhd $dsn/src/testproc.vhd $dsn/src/bco_memoria.vhd $dsn/src/microsencill.vhd $dsn/src/Utils_STD_LOGIC.vhd $dsn/src/Probando_cosas.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\Sumador.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# File: d:\tarq\TP4\src\TestSumador.vhd
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# File: d:\tarq\TP4\src\Test16.vhd
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# File: d:\tarq\TP4\src\Adder8.vhd
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# File: d:\tarq\TP4\src\TestAdder8.vhd
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# File: d:\tarq\TP4\src\shiftN.vhd
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# File: d:\tarq\TP4\src\Teste_ShiftN.vhd
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# File: d:\tarq\TP4\src\test_driver.vhd
+# Compile Entity "testeandoOo"
+# Compile Architecture "prueba" of Entity "testeandoOo"
+# File: d:\tarq\TP4\src\test_driver_test.vhd
+# Compile Entity "test_driver_test"
+# Compile Architecture "prueba" of Entity "test_driver_test"
+# File: d:\tarq\TP4\src\Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# File: d:\tarq\TP4\src\Test_Controller.vhd
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# File: d:\tarq\TP4\src\Utils.vhd
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# File: d:\tarq\TP4\src\Test_Utils.vhd
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# File: d:\tarq\TP4\src\NOR8.vhd
+# Compile Entity "NOR8"
+# Compile Architecture "proc" of Entity "NOR8"
+# File: d:\tarq\TP4\src\testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "Test" of Entity "testbench"
+# File: d:\tarq\TP4\src\Simple_Multiplier.vhd
+# Compile Entity "Simple_Multiplier"
+# Compile Architecture "Estructural" of Entity "Simple_Multiplier"
+# File: d:\tarq\TP4\src\testduracionmin.vhd
+# Compile Entity "testduracionmin"
+# Compile Architecture "Test" of Entity "testduracionmin"
+# File: d:\tarq\TP4\src\testduracionmax.vhd
+# Compile Entity "testduracionmax"
+# Compile Architecture "Test" of Entity "testduracionmax"
+# File: d:\tarq\TP4\src\testbenchIO.vhd
+# Compile Entity "testbenchIO"
+# Compile Architecture "Test" of Entity "testbenchIO"
+# File: d:\tarq\TP4\src\testproc.vhd
+# Compile Entity "testproc"
+# Compile Architecture "testbench" of Entity "testproc"
+# File: d:\tarq\TP4\src\bco_memoria.vhd
+# Compile Entity "bco_memoria"
+# Compile Architecture "principal" of Entity "bco_memoria"
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# File: d:\tarq\TP4\src\Utils_STD_LOGIC.vhd
+# Compile Package "Utils_STD_LOGIC"
+# Compile Package Body "Utils_STD_LOGIC"
+# File: d:\tarq\TP4\src\Probando_cosas.vhd
+# Compile Entity "Probando_cosas"
+# Compile Architecture "Test" of Entity "Probando_cosas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7226 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:52, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: stopped at time: 12 us
+run 2000 ns
+# KERNEL: stopped at time: 14 us
+acom -O3 -e 100 -work TP4 -2002  $dsn/src/microsencill.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\tarq\TP4\src\microsencill.vhd
+# Compile Entity "microsencill"
+# Compile Architecture "a" of Entity "microsencill"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5803 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location d:\tarq\TP4\src\wave.asdb
+#  21:56, domingo, 18 de noviembre de 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/tarq/TP4/src/wave.asdb'.
+run 2000 ns
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 11
+# KERNEL: Ingrese la direccion de memoria donde guardar
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 12
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 5
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 9
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 1
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 2
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 4
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 3
+# KERNEL: Ingrese operando a utilizar:
+# KERNEL: Ingrese la operacion a realizar:
+# KERNEL: 1) ADD
+# KERNEL: 2) STORE
+# KERNEL: 3) LOAD
+# KERNEL: 4) JUMP
+# KERNEL: 5) SUB
+# KERNEL: 6) AND
+# KERNEL: 7) OR
+# KERNEL: 8) NOT
+# KERNEL: 9) JZ
+# KERNEL: 10) NOP
+# KERNEL: 11) CARGAR DATO
+# KERNEL: 12) LDR
+# KERNEL: 0) EJECUTAR EL PROCESADOR
+# KERNEL: FLUSH LINE
+# KERNEL: 0
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 2000 ns
+# KERNEL: stopped at time: 10 us
+run 2000 ns
+# KERNEL: stopped at time: 12 us
