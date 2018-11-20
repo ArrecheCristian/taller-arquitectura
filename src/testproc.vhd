@@ -207,7 +207,7 @@ begin
 					
 					writeline(salida, linea);
 					
-					--Se lee la instruccion a realizar
+					--Se lee el operando
 					readline(entrada, linea);
 					read(linea, parseOp);	
 				   	
@@ -219,8 +219,8 @@ begin
 				end if;
 				
 	
+				-- Con un case elige el codigo correspondiente segun la instruccion elegida
 				CASE Inst IS
-				-- dependiendo del estado hacemos una u otra operación, reset_pc me pone los registros a 0
 					WHEN 1 =>
 						instr_input:="00000011";
 						operando := convert(parseOp,8);

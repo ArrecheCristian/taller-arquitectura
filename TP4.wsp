@@ -251,7 +251,7 @@ FileTimeLow=30699677
 Status=Compiled
 
 [COMPILESTATUS|.\src\wave.asdb]
-FileTimeLow=30703511
+FileTimeLow=30703535
 Status=Modified
 
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\TP4\src/testbench.vhd|]
@@ -649,47 +649,47 @@ WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////0QBAAB6AAAAgAcAAEoDAAAA
 Path=/testproc
 
 [COMPILESTATUS|.\src\wave.asdbw\strings.data]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\channels]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\global_info]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\names.data]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\names.index]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\pattern_lut]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\scratchpad]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\sources]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\strings.index]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\treeinfo]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\current\typeinfo]
-FileTimeLow=30703511
+FileTimeLow=0
 Status=Modified
 
 [COMPILESTATUS|.\src\wave.asdbw\LOCAL___a617ef5b571f0401c200.sid\channels.data]

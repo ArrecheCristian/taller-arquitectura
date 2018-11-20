@@ -40,7 +40,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=testproc|testbench|0  
+HierarchyInformation=testproc|testbench|0   
 ShowHide=ShowTopLevel
 Selected=
 
