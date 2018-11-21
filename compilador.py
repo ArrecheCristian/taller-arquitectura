@@ -166,4 +166,5 @@ def compilador(path):
 	return None
 
 
-compilador("test.asm")
+compilador(input("Ingrese el path del archivo: "))
+input("Presione enter para salir")
