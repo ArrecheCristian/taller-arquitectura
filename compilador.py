@@ -34,7 +34,9 @@ def compilador(path):
 			if line.startswith("#"):
 
 				# Agrega el dato al diccionario
-				etq[p[0]] = p[1]
+
+				# Si el dato termina con "b" es binario, y hay que pasarlo a integer. Si no lo deja como estaba
+				etq[p[0]] = str( int(p[1].replace("b", ""), 2) ) if p[1].endswith("b") else p[1]
 			
 			# Si no arranca con hashtag asume que es una instruccion
 			else:

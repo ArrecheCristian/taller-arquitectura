@@ -33,10 +33,10 @@ architecture testbench of testproc is
 		
 		
 	procedure Guardar_instr(
-		-- Señal a donde hay que mandar la posicion a cargar
+		-- SeÃ±al a donde hay que mandar la posicion a cargar
 		signal bus_pos: out natural;
 		
-		-- Señal a donde se va a manar el dato
+		-- SeÃ±al a donde se va a manar el dato
 		signal bus_ins: out std_logic_vector(15 downto 0);
 		
 		-- Posicion a donde escribir
@@ -45,7 +45,7 @@ architecture testbench of testproc is
 		-- Operando que forma parte de la instruccion
 		variable operando : std_logic_vector(7 downto 0);
 		
-		-- Codigo de operación a realizar
+		-- Codigo de operaciÃ³n a realizar
 		variable instr_input : std_logic_vector(15 downto 8)
 	) is
 	
@@ -63,10 +63,10 @@ architecture testbench of testproc is
 
 	
 	procedure guardar_dato(
-		-- Señal a donde hay que mandar la posicion a cargar
+		-- SeÃ±al a donde hay que mandar la posicion a cargar
 		signal bus_pos: out natural;
 		
-		-- Señal a donde se va a manar el dato
+		-- SeÃ±al a donde se va a manar el dato
 		signal bus_ins: out std_logic_vector(15 downto 0);
 		
 		-- Posicion a donde escribir
@@ -81,19 +81,19 @@ architecture testbench of testproc is
 		bus_ins <= dato;
 	end procedure;
 
---Señal que intercomunica el puerto de salida addres_in del micro con addres_out de la memoria.
+--SeÃ±al que intercomunica el puerto de salida addres_in del micro con addres_out de la memoria.
 	signal addres :STD_LOGIC_VECTOR(7 DOWNTO 0);	
--- Señales que intercomunica la testbench con la carga memoria 
+-- SeÃ±ales que intercomunica la testbench con la carga memoria 
 	signal asinc_bus_pos:  natural; 	   
 	signal asinc_bus_ins: std_logic_vector(15 downto 0);
 
--- Señal que conecta memory_data_out del micro con el memory_data_in de banco
+-- SeÃ±al que conecta memory_data_out del micro con el memory_data_in de banco
 	signal memory_data_micro_mem: STD_LOGIC_VECTOR(15 DOWNTO 0);	
--- Señal que conecta memory_data_in del micro con el memory_data_out del banco
+-- SeÃ±al que conecta memory_data_in del micro con el memory_data_out del banco
 	signal memory_data_mem_micro: STD_LOGIC_VECTOR(15 DOWNTO 0);
--- Señal de clock
+-- SeÃ±al de clock
 	signal CLK: STD_logic;
--- Señal que conecta We del micro con We de banco de memoria
+-- SeÃ±al que conecta We del micro con We de banco de memoria
  	signal We : STd_logic;
 --  Signal que conecta el Puerto reset de la memoria
 	signal resetMem: Std_logic;
@@ -124,7 +124,7 @@ begin
 	variable dato : std_logic_vector(15 downto 0) := "0000001100000010"; 
 								   
 	
-	--Variables para la interfaz gráfica
+	--Variables para la interfaz grÃ¡fica
 	variable linea : line;
   	file entrada : text is in "assembler";
 	file salida : text is out "STD_OUTPUT";	 
@@ -141,7 +141,7 @@ begin
 	-- Operando que forma parte de la instruccion
 	variable operando : std_logic_vector(7 downto 0);
 		
-	-- Codigo de operación a realizar
+	-- Codigo de operaciÃ³n a realizar
 	variable instr_input : std_logic_vector(15 downto 8); 
 		
 	variable salir : boolean := true;
