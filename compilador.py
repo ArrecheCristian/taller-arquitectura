@@ -49,7 +49,7 @@ def compilador(path):
 					salto[p[2]] = len(ins)
 
 				# Para las instrucciones que no tienen operando
-				elif ( (p[0] == "NOP") | (p[0] == "HALT") | (p[0] == "LDR")) & (len(p) == 2):
+				elif ( (p[0] == "NOT") | (p[0] == "NOP") | (p[0] == "HALT") | (p[0] == "LDR")) & (len(p) == 2):
 					salto[p[1]] = len(ins)
 
 				# Guarda la instruccion en la lista de instrucciones

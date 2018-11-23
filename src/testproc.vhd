@@ -197,7 +197,7 @@ begin
 				writeline(salida, linea);  
 				
 				-- Se fija si la instruccion a cargar requiere parametro
-				if ((Inst /= 0) AND (Inst /= 10)) AND (Inst /= 12) then
+				if ((Inst /= 0) AND (Inst /= 10)) AND (Inst /= 12) AND (Inst /= 8) then
 					
 					if (Inst /= 11) then
 						write(linea, string'("Ingrese operando a utilizar:"));
