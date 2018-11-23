@@ -11,7 +11,7 @@ LOAD #ARRAY1
 // Hace un AND con el segundo, que debe dar 0
 AND #ARRAY2
 
-// Carga nuevamente el primer array, y hace un OR con el segundo, debe dar 0
+// Carga nuevamente el primer array, y hace un OR con el segundo, debe dar FFFF
 LOAD #ARRAY1
 OR #ARRAY2
 
